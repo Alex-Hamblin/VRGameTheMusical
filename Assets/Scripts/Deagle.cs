@@ -18,6 +18,8 @@ public class Deagle : MonoBehaviour
 
     [SerializeField] AudioSource audioSource;
 
+    bool hasPressed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,17 +29,22 @@ public class Deagle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (fireAction.action.ReadValue<float>() > 0.5f)
+        if (fireAction.action.ReadValue<float>() > 0.5f && !hasPressed)
         {
 
             fire();
+            hasPressed = true;
 
         }else 
         
-        if (reloadAction.action.ReadValue<float>() > 0.5f)
+        if (reloadAction.action.ReadValue<float>() > 0.5f && !hasPressed)
         {
             reload();
+            hasPressed = true;
 
+        } else
+        {
+            hasPressed = false;
         }
     }
 
