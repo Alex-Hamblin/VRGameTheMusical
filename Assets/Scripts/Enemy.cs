@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject bullet;
+    bool shoot;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,14 +13,19 @@ public class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        if (shoot) 
+        {
+            StartCoroutine(fire());
+        }
     }
     
     IEnumerator fire()
     {
+        shoot = false;
         yield return new WaitForSeconds(3);
         Instantiate(bullet,gameObject.transform.position, Quaternion.identity);
+        shoot = true;
     }
 }
