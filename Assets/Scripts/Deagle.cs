@@ -29,7 +29,7 @@ public class Deagle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (fireAction.action.ReadValue<float>() > 0.5f && !hasPressed)
+        if (fireAction.action.WasPressedThisFrame())
         {
 
             fire();
@@ -37,7 +37,7 @@ public class Deagle : MonoBehaviour
 
         }else 
         
-        if (reloadAction.action.ReadValue<float>() > 0.5f && !hasPressed)
+        if (reloadAction.action.WasPressedThisFrame())
         {
             reload();
             hasPressed = true;
