@@ -1861,18 +1861,6 @@ PrefabInstance:
       value: Deagle
       objectReference: {fileID: 0}
     - target: {fileID: 4067590218549122948, guid: 0482a046e4a0aa04aa0c3f91bd56c700, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.20000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067590218549122948, guid: 0482a046e4a0aa04aa0c3f91bd56c700, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067590218549122948, guid: 0482a046e4a0aa04aa0c3f91bd56c700, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.20000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067590218549122948, guid: 0482a046e4a0aa04aa0c3f91bd56c700, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1915,63 +1903,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3691029113248222526, guid: 0482a046e4a0aa04aa0c3f91bd56c700, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6889072085585672668}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0482a046e4a0aa04aa0c3f91bd56c700, type: 3}
---- !u!1 &6889072085585672667 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3691029113248222526, guid: 0482a046e4a0aa04aa0c3f91bd56c700, type: 3}
-  m_PrefabInstance: {fileID: 6889072085585672666}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6889072085585672668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6889072085585672667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f932d5babb39a0c4e9517a2c43713a2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Fire
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: ae7901c5-d72f-4d0d-97d4-9fbb38d18a3e
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  reloadAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Reload
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: c6025828-0ba1-4aba-930e-7747e5d09359
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -6595258971901177623, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  bulletsLeft: 0
-  bulletsMax: 7
-  fireSFX: {fileID: 8300000, guid: fbf5ce6bc0e31ac4d8fe7c347ede83b8, type: 3}
-  emptyFireSFX: {fileID: 8300000, guid: ceea5be00cd913a459a750128eeb8fc9, type: 3}
-  reloadSFX: {fileID: 8300000, guid: 80a218c4e94d77b44890c500b316634d, type: 3}
-  audioSource: {fileID: 6889072085585672669}
---- !u!82 &6889072085585672669 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 4254471280284113997, guid: 0482a046e4a0aa04aa0c3f91bd56c700, type: 3}
-  m_PrefabInstance: {fileID: 6889072085585672666}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8537476742735252429
 PrefabInstance:
   m_ObjectHideFlags: 0

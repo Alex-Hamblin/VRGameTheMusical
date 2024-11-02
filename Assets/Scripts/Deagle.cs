@@ -17,6 +17,7 @@ public class Deagle : MonoBehaviour
     [SerializeField] AudioClip reloadSFX;
 
     [SerializeField] AudioSource audioSource;
+    [SerializeField] GameObject muzzle;
 
     bool hasPressed;
 
@@ -62,6 +63,16 @@ public class Deagle : MonoBehaviour
         {
             bulletsLeft--;
             PlayAudioClip(fireSFX);
+
+            RaycastHit hit;
+            if(Physics.Raycast(muzzle.transform.position, transform.forward, out hit, 500f))
+            {
+                Debug.DrawRay(muzzle.transform.position, transform.forward * 500f, Color.red);
+                //IF hit is enemy deal damage
+
+            }
+
+
         } else
         {
             PlayAudioClip(emptyFireSFX);
