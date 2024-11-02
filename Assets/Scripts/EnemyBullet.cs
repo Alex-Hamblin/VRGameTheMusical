@@ -6,6 +6,7 @@ public class EnemyBullet : MonoBehaviour
 {
     [SerializeField] Transform player;
     Rigidbody rb;
+    Vector3 redirect;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,11 +16,19 @@ public class EnemyBullet : MonoBehaviour
        
         newpos.Normalize();
         rb.AddForce(newpos *300);
+        redirect = newpos;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Fish")
+        {
+            rb.AddForce(-redirect * 1000);
+        }
     }
 }
