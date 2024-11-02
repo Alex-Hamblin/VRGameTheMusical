@@ -77,7 +77,7 @@ public class Deagle : MonoBehaviour
                 //Debug.DrawRay(muzzle.transform.position, transform.forward * 500f, Color.red);
                 //IF hit is enemy deal damage
 
-                SpawnBulletTrail(hit.transform.position);
+                SpawnBulletTrail(hit.transform.position - muzzle.transform.position);
 
                 if(hit.transform.gameObject.tag == "Enemy")
                 {
