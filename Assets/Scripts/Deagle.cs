@@ -79,6 +79,11 @@ public class Deagle : MonoBehaviour
 
                 SpawnBulletTrail(hit.transform.position);
 
+                if(hit.transform.gameObject.tag == "Enemy")
+                {
+                    Debug.Log("Bazinga");
+                }
+
             } else
             {
                 SpawnBulletTrail(muzzle.transform.position + (muzzle.transform.forward.normalized * gunRange));
@@ -108,7 +113,6 @@ public class Deagle : MonoBehaviour
         bulletTrailEffect.transform.position = muzzle.transform.position;
         lineRenderer.SetPosition(0, Vector3.zero);
         lineRenderer.SetPosition(1, hitPos);
-        Debug.Log("Bazinga");
         Destroy(bulletTrailEffect, 1f);
     }
 }
