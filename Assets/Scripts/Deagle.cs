@@ -20,7 +20,9 @@ public class Deagle : MonoBehaviour
     [SerializeField] GameObject muzzle;
     [SerializeField] GameObject muzzleflash;
 
+    [SerializeField] GameObject bulletTrail;
     bool hasPressed;
+    [SerializeField] float gunRange;
 
     // Start is called before the first frame update
     void Start()
@@ -70,12 +72,19 @@ public class Deagle : MonoBehaviour
             PlayAudioClip(fireSFX);
             muzzleflash.GetComponent<ParticleSystem>().Play();
             RaycastHit hit;
-            if (Physics.Raycast(muzzle.transform.position, transform.forward, out hit, 500f))
+            if (Physics.Raycast(muzzle.transform.position, transform.forward, out hit, gunRange))
             {
-                Debug.DrawRay(muzzle.transform.position, transform.forward * 500f, Color.red);
+                //Debug.DrawRay(muzzle.transform.position, transform.forward * 500f, Color.red);
                 //IF hit is enemy deal damage
 
+                SpawnBulletTrail(hit.transform.position);
+
+            } else
+            {
+                SpawnBulletTrail(muzzle.transform.position + (muzzle.transform.forward.normalized * gunRange));
             }
+
+            
 
 
         }
@@ -91,5 +100,16 @@ public class Deagle : MonoBehaviour
         audioSource.Play();
     }
     
+    void SpawnBulletTrail(Vector3 hitPos)
+    {
+        GameObject bulletTrailEffect = Instantiate(bulletTrail, muzzle.transform.position, Quaternion.identity);
+
+        LineRenderer lineRenderer = bulletTrailEffect.GetComponent<LineRenderer>();
+        bulletTrailEffect.transform.position = muzzle.transform.position;
+        lineRenderer.SetPosition(0, Vector3.zero);
+        lineRenderer.SetPosition(1, hitPos);
+        Debug.Log("Bazinga");
+        Destroy(bulletTrailEffect, 1f);
+    }
 }
 
