@@ -27,14 +27,14 @@ public class Deagle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (fireAction.action.ReadValue<bool>())
+        if (fireAction.action.ReadValue<float>() > 0.5f)
         {
 
             fire();
 
         }else 
         
-        if (reloadAction.action.ReadValue<bool>())
+        if (reloadAction.action.ReadValue<float>() > 0.5f)
         {
             reload();
 
