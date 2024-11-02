@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: walls
+  m_Name: Custom_Rim
   m_Shader: {fileID: 4800000, guid: fcea1ce6409712443af4d9e45a17c7d1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -27,5 +27,5 @@ Material:
     m_Floats:
     - _RimPower: 3
     m_Colors:
-    - _RimColor: {r: 1, g: 0.10838409, b: 0, a: 0}
+    - _RimColor: {r: 1, g: 0.94960225, b: 0, a: 0}
   m_BuildTextureStacks: []
