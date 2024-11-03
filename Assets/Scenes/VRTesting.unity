@@ -2152,6 +2152,7 @@ MonoBehaviour:
   cubesPerAxis: 16
   force: 500
   radius: 4
+  cubeDeathGameObject: {fileID: 8536042900813279695, guid: 0fa5eeafad8f03143b5fdfc1ad5b6631, type: 3}
 --- !u!1001 &6889072085585672666
 PrefabInstance:
   m_ObjectHideFlags: 0

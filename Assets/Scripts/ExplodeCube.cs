@@ -8,6 +8,7 @@ public class ExplodeCube : MonoBehaviour
     [SerializeField] int cubesPerAxis;
     [SerializeField] float force;
     [SerializeField] float radius;
+    [SerializeField] GameObject cubeDeathGameObject;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +34,7 @@ public class ExplodeCube : MonoBehaviour
 
     void CreateCube(Vector3 coordinates, Vector3 explosionPos)
     {
-        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        GameObject cube = Instantiate(cubeDeathGameObject);
 
         Renderer rd = cube.GetComponent<Renderer>();
         rd.material = cube.GetComponent<Renderer>().material;
