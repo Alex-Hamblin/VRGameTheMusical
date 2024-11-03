@@ -2003,8 +2003,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394040981}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000003145275, y: -0.7071732, z: -0.000000003151026, w: 0.70704037}
-  m_LocalPosition: {x: 333.8, y: 3.757187, z: 9.3}
+  m_LocalRotation: {x: 0.000000018199778, y: -0.70718557, z: -0.000000025656579, w: 0.70702803}
+  m_LocalPosition: {x: 329.9, y: 3.757187, z: 9.3}
   m_LocalScale: {x: 4.4725523, y: 4.4725523, z: 4.4725523}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6564,111 +6564,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
---- !u!1 &1303365910
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1303365911}
-  - component: {fileID: 1303365914}
-  - component: {fileID: 1303365913}
-  - component: {fileID: 1303365912}
-  m_Layer: 0
-  m_Name: Cube (20)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1303365911
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303365910}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7069766, z: -0, w: 0.707237}
-  m_LocalPosition: {x: 712.8, y: -28.84, z: 47.7}
-  m_LocalScale: {x: 67.847176, y: 84.54658, z: 11.6285925}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1946858047}
-  m_LocalEulerAnglesHint: {x: 0, y: -89.979, z: 0}
---- !u!65 &1303365912
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303365910}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1303365913
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303365910}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1303365914
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303365910}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1305396937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9960,7 +9855,6 @@ Transform:
   - {fileID: 1320937234}
   - {fileID: 2123165361}
   - {fileID: 1873250546}
-  - {fileID: 1303365911}
   - {fileID: 1234462964}
   - {fileID: 1414302066}
   - {fileID: 1927046371}
@@ -10390,7 +10284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c9e39288d475b49b84a6160e94b560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgrMusic: {fileID: 8300000, guid: 1b5c5bed69b68c54ca4dcc3976fa99e4, type: 3}
+  bgrMusic: {fileID: 8300000, guid: c7749b80929e68243a9f7ade0f10b649, type: 3}
   audioSource: {fileID: 1976555012}
 --- !u!135 &1976555014
 SphereCollider:
