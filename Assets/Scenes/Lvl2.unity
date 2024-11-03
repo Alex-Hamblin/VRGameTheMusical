@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 4688471}
   m_Layer: 0
   m_Name: Cube (52)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -352,6 +352,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (3)
@@ -427,7 +435,7 @@ GameObject:
   - component: {fileID: 54476778}
   m_Layer: 0
   m_Name: Cube (45)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -791,7 +799,7 @@ GameObject:
   - component: {fileID: 137386082}
   m_Layer: 0
   m_Name: Cube (29)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1002,7 +1010,7 @@ GameObject:
   - component: {fileID: 166354106}
   m_Layer: 0
   m_Name: Cube (43)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1107,7 +1115,7 @@ GameObject:
   - component: {fileID: 201398210}
   m_Layer: 0
   m_Name: Cube (26)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1217,7 +1225,7 @@ GameObject:
   - component: {fileID: 238473760}
   m_Layer: 0
   m_Name: Cube (33)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1322,7 +1330,7 @@ GameObject:
   - component: {fileID: 239672824}
   m_Layer: 0
   m_Name: Cube (27)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1427,7 +1435,7 @@ GameObject:
   - component: {fileID: 292338330}
   m_Layer: 0
   m_Name: Cube (46)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1532,7 +1540,7 @@ GameObject:
   - component: {fileID: 304033783}
   m_Layer: 0
   m_Name: Cube (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1709,6 +1717,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (18)
@@ -1778,6 +1794,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies
@@ -1804,7 +1828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7423584512292947554, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 53.9
+      value: 43.11
       objectReference: {fileID: 0}
     - target: {fileID: 7423584512292947554, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1853,7 +1877,7 @@ GameObject:
   - component: {fileID: 378517451}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1993,7 +2017,7 @@ MonoBehaviour:
   m_Camera: {fileID: 1976555010}
   m_OriginBaseGameObject: {fileID: 394040981}
   m_CameraFloorOffsetObject: {fileID: 1832331506}
-  m_RequestedTrackingOriginMode: 1
+  m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 2.05
 --- !u!4 &394040984
 Transform:
@@ -2078,7 +2102,7 @@ GameObject:
   - component: {fileID: 399918908}
   m_Layer: 0
   m_Name: Cube (35)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2183,7 +2207,7 @@ GameObject:
   - component: {fileID: 419188560}
   m_Layer: 0
   m_Name: Cube (48)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2288,7 +2312,7 @@ GameObject:
   - component: {fileID: 430261951}
   m_Layer: 0
   m_Name: Cube (25)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2393,7 +2417,7 @@ GameObject:
   - component: {fileID: 432483649}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2498,7 +2522,7 @@ GameObject:
   - component: {fileID: 441337207}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2603,7 +2627,7 @@ GameObject:
   - component: {fileID: 447811085}
   m_Layer: 0
   m_Name: Cube (55)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2708,7 +2732,7 @@ GameObject:
   - component: {fileID: 522469288}
   m_Layer: 0
   m_Name: Cube (32)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2813,7 +2837,7 @@ GameObject:
   - component: {fileID: 531911897}
   m_Layer: 0
   m_Name: Cube (56)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2918,7 +2942,7 @@ GameObject:
   - component: {fileID: 561476453}
   m_Layer: 0
   m_Name: Cube (58)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3017,6 +3041,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (19)
@@ -3138,7 +3170,7 @@ GameObject:
   - component: {fileID: 597547054}
   m_Layer: 0
   m_Name: Cube (15)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3243,7 +3275,7 @@ GameObject:
   - component: {fileID: 612552135}
   m_Layer: 0
   m_Name: Cube (36)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3342,6 +3374,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (25)
@@ -3417,7 +3457,7 @@ GameObject:
   - component: {fileID: 696846241}
   m_Layer: 0
   m_Name: Cube (38)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3781,7 +3821,7 @@ GameObject:
   - component: {fileID: 750993725}
   m_Layer: 0
   m_Name: Cube (51)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3886,7 +3926,7 @@ GameObject:
   - component: {fileID: 762979684}
   m_Layer: 0
   m_Name: Cube (31)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4098,7 +4138,7 @@ GameObject:
   - component: {fileID: 787499783}
   m_Layer: 0
   m_Name: Cube (57)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4203,7 +4243,7 @@ GameObject:
   - component: {fileID: 808373596}
   m_Layer: 0
   m_Name: Cube (28)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4308,7 +4348,7 @@ GameObject:
   - component: {fileID: 831523483}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4409,6 +4449,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (15)
@@ -4478,6 +4526,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (11)
@@ -4653,6 +4709,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (4)
@@ -4728,7 +4792,7 @@ GameObject:
   - component: {fileID: 953848050}
   m_Layer: 0
   m_Name: Cylinder (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4835,7 +4899,7 @@ GameObject:
   - component: {fileID: 977597534}
   m_Layer: 0
   m_Name: Cube (16)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4940,7 +5004,7 @@ GameObject:
   - component: {fileID: 1005887298}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5139,7 +5203,7 @@ GameObject:
   - component: {fileID: 1039402535}
   m_Layer: 0
   m_Name: Cube (19)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5244,7 +5308,7 @@ GameObject:
   - component: {fileID: 1042258762}
   m_Layer: 0
   m_Name: Cube (40)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5349,7 +5413,7 @@ GameObject:
   - component: {fileID: 1050370214}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5507,7 +5571,7 @@ GameObject:
   - component: {fileID: 1058408698}
   m_Layer: 0
   m_Name: Cube (44)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5606,6 +5670,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (16)
@@ -5681,7 +5753,7 @@ GameObject:
   - component: {fileID: 1063963153}
   m_Layer: 0
   m_Name: Cube (37)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5780,6 +5852,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (13)
@@ -5886,7 +5966,7 @@ GameObject:
   - component: {fileID: 1161580449}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5985,6 +6065,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (6)
@@ -6125,7 +6213,7 @@ GameObject:
   - component: {fileID: 1181097478}
   m_Layer: 0
   m_Name: Cube (18)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6230,7 +6318,7 @@ GameObject:
   - component: {fileID: 1234462965}
   m_Layer: 0
   m_Name: Cube (21)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6335,7 +6423,7 @@ GameObject:
   - component: {fileID: 1268911157}
   m_Layer: 0
   m_Name: Cube (13)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6434,6 +6522,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (7)
@@ -6503,6 +6599,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (12)
@@ -6572,6 +6676,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (10)
@@ -6679,7 +6791,7 @@ GameObject:
   - component: {fileID: 1320937235}
   m_Layer: 0
   m_Name: Cube (34)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6890,7 +7002,7 @@ GameObject:
   - component: {fileID: 1324862017}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6989,6 +7101,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (22)
@@ -7058,6 +7178,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (24)
@@ -7261,7 +7389,7 @@ GameObject:
   - component: {fileID: 1414302067}
   m_Layer: 0
   m_Name: Cube (22)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7366,7 +7494,7 @@ GameObject:
   - component: {fileID: 1423366805}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7471,7 +7599,7 @@ GameObject:
   - component: {fileID: 1435537415}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7576,7 +7704,7 @@ GameObject:
   - component: {fileID: 1441179489}
   m_Layer: 0
   m_Name: Cylinder (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7677,6 +7805,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (2)
@@ -7783,7 +7919,7 @@ GameObject:
   - component: {fileID: 1483085037}
   m_Layer: 0
   m_Name: Cylinder (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7890,7 +8026,7 @@ GameObject:
   - component: {fileID: 1496944910}
   m_Layer: 0
   m_Name: Cube (23)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7995,7 +8131,7 @@ GameObject:
   - component: {fileID: 1527497077}
   m_Layer: 0
   m_Name: Cube (53)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8094,6 +8230,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (20)
@@ -8169,7 +8313,7 @@ GameObject:
   - component: {fileID: 1562463455}
   m_Layer: 0
   m_Name: Cylinder (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8270,6 +8414,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (1)
@@ -8439,7 +8591,7 @@ GameObject:
   - component: {fileID: 1657432053}
   m_Layer: 0
   m_Name: Cube (54)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8544,7 +8696,7 @@ GameObject:
   - component: {fileID: 1679277678}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8643,6 +8795,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (14)
@@ -8718,7 +8878,7 @@ GameObject:
   - component: {fileID: 1703099317}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8854,7 +9014,7 @@ GameObject:
   - component: {fileID: 1791698105}
   m_Layer: 0
   m_Name: Cylinder (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8961,7 +9121,7 @@ GameObject:
   - component: {fileID: 1793390594}
   m_Layer: 0
   m_Name: Cube (24)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9100,7 +9260,7 @@ GameObject:
   - component: {fileID: 1856359630}
   m_Layer: 0
   m_Name: Cylinder (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9201,6 +9361,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (5)
@@ -9276,7 +9444,7 @@ GameObject:
   - component: {fileID: 1873250547}
   m_Layer: 0
   m_Name: Cube (17)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9381,7 +9549,7 @@ GameObject:
   - component: {fileID: 1907344622}
   m_Layer: 0
   m_Name: Cube (47)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9486,7 +9654,7 @@ GameObject:
   - component: {fileID: 1924662518}
   m_Layer: 0
   m_Name: Cylinder (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9593,7 +9761,7 @@ GameObject:
   - component: {fileID: 1927046372}
   m_Layer: 0
   m_Name: Cube (14)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9698,7 +9866,7 @@ GameObject:
   - component: {fileID: 1927571562}
   m_Layer: 0
   m_Name: Cube (42)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9895,6 +10063,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (23)
@@ -10334,7 +10510,7 @@ GameObject:
   - component: {fileID: 2015218958}
   m_Layer: 0
   m_Name: Cube (41)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10433,6 +10609,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (17)
@@ -10614,7 +10798,7 @@ GameObject:
   - component: {fileID: 2021627858}
   m_Layer: 0
   m_Name: Cube (39)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10719,7 +10903,7 @@ GameObject:
   - component: {fileID: 2027544717}
   m_Layer: 0
   m_Name: Cylinder (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10826,7 +11010,7 @@ GameObject:
   - component: {fileID: 2041059869}
   m_Layer: 0
   m_Name: Cube (49)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10925,6 +11109,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (21)
@@ -11000,7 +11192,7 @@ GameObject:
   - component: {fileID: 2048046384}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11193,6 +11385,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (8)
@@ -11262,6 +11462,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (9)
@@ -11331,6 +11539,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: bulletSpeed
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 974695815368037953, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
+      propertyPath: distanceToShoot
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 6328091493796296833, guid: 0eeac8056087e7a44a3ba1cc1df426b3, type: 3}
       propertyPath: m_Name
       value: Enemies (26)
@@ -11406,7 +11622,7 @@ GameObject:
   - component: {fileID: 2104349555}
   m_Layer: 0
   m_Name: Cube (50)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11617,7 +11833,7 @@ GameObject:
   - component: {fileID: 2123165362}
   m_Layer: 0
   m_Name: Cube (30)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
