@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class Player : MonoBehaviour
     {
         if (health <= 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("MainMenu");
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -28,6 +29,10 @@ public class Player : MonoBehaviour
         if (other.tag == "bullet")
         {
             health -= 1;
+        }
+        if (other.tag == "End")
+        {
+            SceneManager.LoadScene("MainMenu");
         }
 
     }

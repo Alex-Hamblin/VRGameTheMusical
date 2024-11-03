@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Scene3Button : MonoBehaviour
 {
+    [SerializeField] MenuController menuController;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,9 @@ public class Scene3Button : MonoBehaviour
     void Update()
     {
         
+    }
+    private void OnDestroy()
+    {
+        menuController.Scene3Shot = true;
     }
 }
