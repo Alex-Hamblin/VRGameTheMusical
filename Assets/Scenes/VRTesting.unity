@@ -2844,7 +2844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.21000004
+      value: 1.266
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5778,7 +5778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.48
+      value: 1.29
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6339,12 +6339,39 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.7293172, y: 1.4229288, z: 0.3865394}
-  m_Center: {x: -0.020492798, y: 0.063290626, z: 0}
+  m_Size: {x: 4.3940444, y: 1.4229289, z: 1.1395315}
+  m_Center: {x: -0.35285655, y: 0.06329069, z: 0.06219961}
+--- !u!54 &1051849270
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051849266}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1098358547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7009,11 +7036,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.66
+      value: -39.88
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.48
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10340,7 +10367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.48
+      value: 0.967
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10410,11 +10437,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.66
+      value: -40.33
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.48
+      value: -0.77
       objectReference: {fileID: 0}
     - target: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11772,6 +11799,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3478406035565429695, guid: 0a5603b9fb63b634a8f77b95bfade891, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1051849267}
+    - targetCorrespondingSourceObject: {fileID: 3478406035565429695, guid: 0a5603b9fb63b634a8f77b95bfade891, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051849270}
   m_SourcePrefab: {fileID: 100100000, guid: 0a5603b9fb63b634a8f77b95bfade891, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

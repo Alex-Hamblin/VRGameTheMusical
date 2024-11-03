@@ -70,5 +70,9 @@ public class ExplodeCube : MonoBehaviour
         {
             Explode();
         }
+        if (other.tag == "Fish")
+        {
+            Explode();
+        }
     }
 }
