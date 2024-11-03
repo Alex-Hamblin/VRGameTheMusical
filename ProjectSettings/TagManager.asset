@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - bullet
   - Reflected
+  - Environment
   layers:
   - Default
   - TransparentFX
