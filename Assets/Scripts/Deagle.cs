@@ -86,7 +86,9 @@ public class Deagle : MonoBehaviour
 
             } else
             {
-                SpawnBulletTrail(muzzle.transform.position + (muzzle.transform.forward.normalized * gunRange));
+                SpawnBulletTrail(muzzle.transform.forward.normalized * gunRange);
+                //SpawnBulletTrail(muzzle.transform.position + (muzzle.transform.forward.normalized * gunRange));
+
             }
 
             

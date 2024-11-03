@@ -10,7 +10,10 @@ public class Enemy : MonoBehaviour
     [SerializeField]  bool istargeting;
     [SerializeField] Transform player;
     [SerializeField] float distance;
+    [SerializeField] float distanceToShoot = 20f;
     bool cooldownl;
+
+    [SerializeField] float bulletSpeed = 500f;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +26,7 @@ public class Enemy : MonoBehaviour
     void FixedUpdate()
     {
         distance = Vector3.Distance (player.position, gameObject.transform.position);
-        if (distance < 20)
+        if (distance < distanceToShoot)
 
         {
              
@@ -44,7 +47,8 @@ public class Enemy : MonoBehaviour
     {
         shoot = false;
         yield return new WaitForSeconds(1.5f);
-        Instantiate(bullet,gameObject.transform.position, Quaternion.identity);
+        GameObject bulletInstance = Instantiate(bullet,gameObject.transform.position, Quaternion.identity);
+        bulletInstance.GetComponent<EnemyBullet>().bulletSpeed = bulletSpeed;
         shoot = true;
     }
    

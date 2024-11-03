@@ -7,6 +7,7 @@ public class EnemyBullet : MonoBehaviour
     [SerializeField] Transform player;
     Rigidbody rb;
     Vector3 redirect;
+    public float bulletSpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +16,7 @@ public class EnemyBullet : MonoBehaviour
         Vector3 newpos = player.position - gameObject.transform.position;
        
         newpos.Normalize();
-        rb.AddForce(newpos *500);
+        rb.AddForce(newpos * bulletSpeed);
         redirect = newpos;
     }
 
