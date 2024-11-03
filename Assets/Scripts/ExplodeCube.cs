@@ -37,7 +37,6 @@ public class ExplodeCube : MonoBehaviour
         GameObject cube = Instantiate(cubeDeathGameObject);
 
         Renderer rd = cube.GetComponent<Renderer>();
-        rd.material = cube.GetComponent<Renderer>().material;
 
         cube.transform.localScale = transform.localScale / cubesPerAxis;
 
