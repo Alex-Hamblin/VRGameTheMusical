@@ -123,6 +123,7 @@ MonoBehaviour:
   force: 1000
   radius: 100000
   cubeDeathGameObject: {fileID: 8536042900813279695, guid: 0fa5eeafad8f03143b5fdfc1ad5b6631, type: 3}
+  deathAudio: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
 --- !u!114 &642032814945785465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,3 +138,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1886365087806379804, guid: 8311fbe7591872541bece9130f90580a, type: 3}
   istargeting: 0
+  player: {fileID: 0}
+  distance: 0
