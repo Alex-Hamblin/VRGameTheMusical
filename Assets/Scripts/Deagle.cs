@@ -81,7 +81,7 @@ public class Deagle : MonoBehaviour
 
                 if(hit.transform.gameObject.tag == "Enemy")
                 {
-                    Debug.Log("Bazinga");
+                    hit.transform.gameObject.GetComponent<ExplodeCube>().Explode(hit.point);
                 }
 
             } else
