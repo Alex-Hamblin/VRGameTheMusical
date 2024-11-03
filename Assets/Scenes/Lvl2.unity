@@ -13894,6 +13894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1732597508}
+  - component: {fileID: 1732597509}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Player
@@ -13916,6 +13917,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 394040984}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1732597509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732597507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccfcb2503fc8744ba185e830d47d099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 1976555006}
 --- !u!1001 &1733828157
 PrefabInstance:
   m_ObjectHideFlags: 0
