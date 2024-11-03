@@ -170,6 +170,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (13)
@@ -240,6 +244,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (22)
@@ -415,6 +423,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (35)
@@ -702,6 +714,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (41)
@@ -1031,6 +1047,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (25)
@@ -1521,6 +1541,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (2)
@@ -1595,6 +1619,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (26)
@@ -1994,6 +2022,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (40)
@@ -2379,6 +2411,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (21)
@@ -2842,6 +2878,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (24)
@@ -3137,6 +3177,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (42)
@@ -3627,6 +3671,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (10)
@@ -3692,6 +3740,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (19)
@@ -3762,6 +3814,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (1)
@@ -3819,6 +3875,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (4)
@@ -4455,6 +4515,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (9)
@@ -4625,6 +4689,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (16)
@@ -4800,6 +4868,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (14)
@@ -4865,6 +4937,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (29)
@@ -5194,6 +5270,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (38)
@@ -5264,6 +5344,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (5)
@@ -5440,6 +5524,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (27)
@@ -5724,6 +5812,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (33)
@@ -5914,6 +6006,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (17)
@@ -6099,6 +6195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (28)
@@ -6293,6 +6393,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (12)
@@ -6874,6 +6978,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (6)
@@ -6939,6 +7047,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (30)
@@ -7114,6 +7226,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (34)
@@ -7184,6 +7300,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (11)
@@ -7386,6 +7506,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (3)
@@ -7733,6 +7857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1396209855}
+  - component: {fileID: 1396209856}
   m_Layer: 0
   m_Name: Level (1)
   m_TagString: Wall
@@ -7813,6 +7938,102 @@ Transform:
   - {fileID: 467273175}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1396209856
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396209854}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1407437210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 968160104254194909, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
@@ -8255,6 +8476,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (37)
@@ -8325,6 +8550,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (7)
@@ -8394,6 +8623,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (8)
@@ -8877,6 +9110,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (23)
@@ -9298,6 +9535,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (36)
@@ -9373,6 +9614,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (39)
@@ -9687,6 +9932,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (18)
@@ -9967,6 +10216,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (15)
@@ -10037,6 +10290,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (20)
@@ -10117,6 +10374,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (32)
@@ -10187,6 +10448,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies (31)
@@ -11350,6 +11615,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1915529720647314916, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
+      propertyPath: deathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b0111f8a71fc5c43931dbdfff5fd53f, type: 3}
     - target: {fileID: 2162493287260155817, guid: c82435e0edbdb834381d264af73c2b4f, type: 3}
       propertyPath: m_Name
       value: Enemies

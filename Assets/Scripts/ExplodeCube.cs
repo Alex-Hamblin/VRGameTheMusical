@@ -9,6 +9,8 @@ public class ExplodeCube : MonoBehaviour
     [SerializeField] float force;
     [SerializeField] float radius;
     [SerializeField] GameObject cubeDeathGameObject;
+    //[SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip deathAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,9 @@ public class ExplodeCube : MonoBehaviour
 
     public void Explode()
     {
+
+        AudioSource.PlayClipAtPoint(deathAudio, this.gameObject.transform.position);
+
         for (int x = 0; x < cubesPerAxis; x++)
         {
             for (int y = 0; y < cubesPerAxis; y++)
@@ -34,6 +39,9 @@ public class ExplodeCube : MonoBehaviour
 
     void CreateCube(Vector3 coordinates )
     {
+
+
+
         GameObject cube = Instantiate(cubeDeathGameObject);
 
         Renderer rd = cube.GetComponent<Renderer>();
