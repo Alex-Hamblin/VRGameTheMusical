@@ -9,6 +9,7 @@ TagManager:
   - bullet
   - Reflected
   - Environment
+  - Wall
   layers:
   - Default
   - TransparentFX

@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     bool shoot;
     [SerializeField]  bool istargeting;
     [SerializeField] Transform player;
-    [SerializeField] Vector3 distance;
+    [SerializeField] float distance;
     bool cooldownl;
     // Start is called before the first frame update
     void Start()
@@ -22,8 +22,8 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        distance = transform.position - player.position;
-        if (distance.x <2 && distance.z <10 && distance.z > -2 && distance.x > -10)
+        distance = Vector3.Distance (player.position, gameObject.transform.position);
+        if (distance < 500)
 
         {
              
