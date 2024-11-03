@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
     void FixedUpdate()
     {
         distance = Vector3.Distance (player.position, gameObject.transform.position);
-        if (distance < 500)
+        if (distance < 20)
 
         {
              
@@ -43,7 +43,7 @@ public class Enemy : MonoBehaviour
     IEnumerator fire()
     {
         shoot = false;
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1.5f);
         Instantiate(bullet,gameObject.transform.position, Quaternion.identity);
         shoot = true;
     }

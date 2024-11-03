@@ -2913,8 +2913,8 @@ MonoBehaviour:
   m_Camera: {fileID: 1976555010}
   m_OriginBaseGameObject: {fileID: 394040981}
   m_CameraFloorOffsetObject: {fileID: 1832331506}
-  m_RequestedTrackingOriginMode: 1
-  m_CameraYOffset: 1.8
+  m_RequestedTrackingOriginMode: 0
+  m_CameraYOffset: 1.22
 --- !u!4 &394040984
 Transform:
   m_ObjectHideFlags: 0
@@ -2930,6 +2930,7 @@ Transform:
   m_Children:
   - {fileID: 1832331507}
   - {fileID: 336992217}
+  - {fileID: 1732597508}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &394040985
@@ -7568,7 +7569,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5450e48ef987d7842b17cb7fd3f10af2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9242,12 +9243,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732597507}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 1.03, z: 3.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1976555007}
+  m_Father: {fileID: 394040984}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1804977782
 PrefabInstance:
@@ -10328,6 +10329,8 @@ GameObject:
   - component: {fileID: 1976555011}
   - component: {fileID: 1976555013}
   - component: {fileID: 1976555012}
+  - component: {fileID: 1976555014}
+  - component: {fileID: 1976555015}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10347,8 +10350,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1732597508}
+  m_Children: []
   m_Father: {fileID: 1832331507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1976555008
@@ -10500,7 +10502,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -10642,6 +10644,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgrMusic: {fileID: 8300000, guid: 1b5c5bed69b68c54ca4dcc3976fa99e4, type: 3}
   audioSource: {fileID: 1976555012}
+--- !u!135 &1976555014
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976555006}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.34
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1976555015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976555006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4386288bc4ec61c40bf4f6c0a2bd2dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
 --- !u!1 &2063953656
 GameObject:
   m_ObjectHideFlags: 0

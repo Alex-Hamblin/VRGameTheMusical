@@ -15,7 +15,7 @@ public class EnemyBullet : MonoBehaviour
         Vector3 newpos = player.position - gameObject.transform.position;
        
         newpos.Normalize();
-        rb.AddForce(newpos *300);
+        rb.AddForce(newpos *500);
         redirect = newpos;
     }
 
