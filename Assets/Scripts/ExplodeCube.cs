@@ -46,6 +46,8 @@ public class ExplodeCube : MonoBehaviour
         Rigidbody rb = cube.GetComponent<Rigidbody>();
         rb.AddExplosionForce(force, explosionPos, radius);
 
+        Destroy(cube, 2f);
+
 
 
     }
