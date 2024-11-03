@@ -31,5 +31,9 @@ public class EnemyBullet : MonoBehaviour
             rb.AddForce(-redirect * 1000);
             gameObject.tag = "Reflected";
         }
+        if (other.tag == "Wall")
+        {
+            Destroy(gameObject);
+        }
     }
 }
