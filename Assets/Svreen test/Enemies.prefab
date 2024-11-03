@@ -136,3 +136,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1886365087806379804, guid: 8311fbe7591872541bece9130f90580a, type: 3}
+  istargeting: 0

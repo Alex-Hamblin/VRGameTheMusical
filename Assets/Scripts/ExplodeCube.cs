@@ -57,4 +57,11 @@ public class ExplodeCube : MonoBehaviour
     {
         
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Reflected")
+        {
+            Explode();
+        }
+    }
 }

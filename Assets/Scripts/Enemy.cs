@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject bullet;
     bool shoot;
+    [SerializeField] internal bool istargeting;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +17,12 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (shoot) 
+        if (shoot)
         {
             StartCoroutine(fire());
         }
+       
+        
     }
     
     IEnumerator fire()
@@ -28,4 +32,5 @@ public class Enemy : MonoBehaviour
         Instantiate(bullet,gameObject.transform.position, Quaternion.identity);
         shoot = true;
     }
+   
 }
