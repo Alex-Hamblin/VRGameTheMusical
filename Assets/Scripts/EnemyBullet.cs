@@ -29,7 +29,7 @@ public class EnemyBullet : MonoBehaviour
         if (other.tag == "Fish")
         {
             rb.AddForce(-redirect * 1000);
-            other.tag.Replace("bullet","Reflected");
+            gameObject.tag = "Reflected";
         }
     }
 }

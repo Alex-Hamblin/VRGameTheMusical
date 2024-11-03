@@ -7,23 +7,38 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject bullet;
     bool shoot;
-    [SerializeField] internal bool istargeting;
+    [SerializeField]  bool istargeting;
+    [SerializeField] Transform player;
+    [SerializeField] Vector3 distance;
+    bool cooldownl;
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(fire());
+        shoot = true;
+        player = GameObject.FindWithTag("Player").GetComponent<Transform>();
+        //StartCoroutine(fire());
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (shoot)
+        distance = transform.position - player.position;
+        if (distance.x <2 && distance.z <10 && distance.z > -2 && distance.x > -10)
+
         {
-            StartCoroutine(fire());
+             
+           
+            if (shoot)
+            {
+                StartCoroutine(fire());
+            }
+        
+
         }
        
         
     }
+
     
     IEnumerator fire()
     {
