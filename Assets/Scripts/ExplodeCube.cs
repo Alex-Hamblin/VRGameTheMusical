@@ -17,7 +17,7 @@ public class ExplodeCube : MonoBehaviour
     }
 
 
-    public void Explode(Vector3 explosionPos)
+    public void Explode()
     {
         for (int x = 0; x < cubesPerAxis; x++)
         {
@@ -25,14 +25,14 @@ public class ExplodeCube : MonoBehaviour
             {
                 for(int z = 0; z < cubesPerAxis; z++)
                 {
-                    CreateCube(new Vector3(x, y, z), explosionPos);   
+                    CreateCube(new Vector3(x, y, z));   
                 }
             }
         }
         Destroy(gameObject);
     }
 
-    void CreateCube(Vector3 coordinates, Vector3 explosionPos)
+    void CreateCube(Vector3 coordinates )
     {
         GameObject cube = Instantiate(cubeDeathGameObject);
 
@@ -45,7 +45,7 @@ public class ExplodeCube : MonoBehaviour
         cube.transform.position = firstCube + Vector3.Scale(coordinates, cube.transform.localScale);
 
         Rigidbody rb = cube.GetComponent<Rigidbody>();
-        rb.AddExplosionForce(force, explosionPos, radius);
+        rb.AddExplosionForce(force, transform.position, radius);
 
         Destroy(cube, 2f);
 
